@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@40,500,0,0&icon_names=today" />
+    <title>Planner</title>
+    
+    
+</head>
+<body>
+    
+   
+    <input type="color" id="colorPicker">
+    <button id="save-color-button">Save Color</button>
+
+    <button id="change-color-theme">Change Sign up Color Theme </button>
+
+    <hr>
+    <div class="header">
+        <!-- <img id="notebook" src="giphy.gif" height="100" width="100" alt="notebook gif"> -->   
+        <div class="container">
+          <iframe id="notebook" src="https://giphy.com/embed/dmC9XyPNraWSDNY5dK" width="180" height="180" style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+          <p><a href="https://giphy.com/stickers/art-artist-creative-dmC9XyPNraWSDNY5dK"></a></p>
+          <h1>Planner</h1>
+          <iframe id="pen" src="https://giphy.com/embed/Qy7uo8SdvyrJrR3WJa" width="180" height="180" style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+          <p><a href="https://giphy.com/stickers/draw-pencil-faber-castell-Qy7uo8SdvyrJrR3WJa"></a></p>
+        </div>
+        
+        <!-- <img id="laptop" src="computer.gif" height="150" width="150" alt="computer gif"> -->
+    </div>
+
+
+    <section id="sign-up">
+        <h4>Sign Up
+            </h4>
+        <label for="add-first-name">First Name:</label>
+        <textarea type="text" name="" id="add-first-name"></textarea>
+        <br>
+        <label for="add-last-name">Last Name:</label>
+        <textarea type="text" name="" id="add-last-name"></textarea>
+        <br>
+        <label for="add-email">Email:</label>
+        <textarea type="text" name="" id="add-email"></textarea>
+        <br>
+        <label for="add-password">Password:</label>
+        <textarea type="text" name="" id="add-password"></textarea>
+        <button id="create-account-button">Create Account</button>
+        <button id="login-button">Login</button>
+
+    </section>
+
+    <section id="add-form-wrapper">
+        <div id="add-form">
+            <div id="modal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h4>Add Homework</h4>
+                    <label for="add-homework-name">Assignment Name:</label>
+                    <textarea id="add-homework-name"></textarea>
+                    <br>
+                    <label for="add-homework-date">Date:</label>
+                    <textarea id="add-homework-date"></textarea>
+                    <br>
+                    <label for="add-homework-desc">Description:</label>
+                    <textarea id="add-homework-desc"></textarea>
+                    <br>
+                    <label for="add-homework-course">Course:</label>
+                    <textarea id="add-homework-course"></textarea>
+                    <br>
+                    <label for="add-homework-notes">Notes:</label>
+                    <textarea id="add-homework-notes"></textarea>
+                    <br>
+                    <button id="add-homework-button">Add Homework</button>
+                    <button id="save-homework-button">Save Homework</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+<section id="homework-to-do">
+<h5>Homework To Do:<h5>
+    <button id="show-modal-button">Add Homework</button> <!-- Trigger button -->
+</section>
+    <section id="planner-wrapper">
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
