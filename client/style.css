@@ -195,9 +195,11 @@ h3 {
 }
 
 .modal-content {
-    background-color: #fefefe;
-    margin: 15% auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%;
-}
+    margin: auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 60%;
+    max-width: 500px;
+  }
+  

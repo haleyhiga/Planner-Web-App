@@ -1,5 +1,10 @@
 # Planner
 
+<p align="center">
+  <img src="plannerimage.png" alt="Demo" width=50%/>
+</p>
+
+
 ## Resource
 
 **Planner Table**
